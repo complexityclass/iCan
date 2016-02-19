@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					64F0209F1C77B381001EAA6F = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7JTQQ5AX7V;
 					};
 					64F020B61C77B382001EAA6F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -403,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iCan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = complexityclass.iCan;
@@ -414,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iCan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = complexityclass.iCan;
