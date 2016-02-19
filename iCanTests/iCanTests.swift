@@ -33,4 +33,8 @@ class iCanTests: XCTestCase {
         }
     }
     
+    func testTravis() {
+        XCTAssert(1 == 1)
+    }
+    
 }

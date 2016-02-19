@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_project: iCan.xcodeproj
+xcode_scheme: iCan
+xcode_sdk: iphoneos9.3
