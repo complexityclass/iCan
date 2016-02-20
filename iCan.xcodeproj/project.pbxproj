@@ -14,18 +14,10 @@
 		64F020AE1C77B381001EAA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F020AD1C77B381001EAA6F /* Assets.xcassets */; };
 		64F020B11C77B381001EAA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F020AF1C77B381001EAA6F /* LaunchScreen.storyboard */; };
 		64F020BC1C77B382001EAA6F /* iCanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F020BB1C77B382001EAA6F /* iCanTests.swift */; };
-		64F020C71C77B382001EAA6F /* iCanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F020C61C77B382001EAA6F /* iCanUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		64F020B81C77B382001EAA6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 64F020981C77B381001EAA6F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64F0209F1C77B381001EAA6F;
-			remoteInfo = iCan;
-		};
-		64F020C31C77B382001EAA6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 64F020981C77B381001EAA6F /* Project object */;
 			proxyType = 1;
@@ -46,7 +38,6 @@
 		64F020B71C77B382001EAA6F /* iCanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F020BB1C77B382001EAA6F /* iCanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCanTests.swift; sourceTree = "<group>"; };
 		64F020BD1C77B382001EAA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64F020C21C77B382001EAA6F /* iCanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F020C61C77B382001EAA6F /* iCanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCanUITests.swift; sourceTree = "<group>"; };
 		64F020C81C77B382001EAA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		64F020B41C77B382001EAA6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64F020BF1C77B382001EAA6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,7 +75,6 @@
 			children = (
 				64F020A01C77B381001EAA6F /* iCan.app */,
 				64F020B71C77B382001EAA6F /* iCanTests.xctest */,
-				64F020C21C77B382001EAA6F /* iCanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,24 +149,6 @@
 			productReference = 64F020B71C77B382001EAA6F /* iCanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		64F020C11C77B382001EAA6F /* iCanUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64F020D11C77B382001EAA6F /* Build configuration list for PBXNativeTarget "iCanUITests" */;
-			buildPhases = (
-				64F020BE1C77B382001EAA6F /* Sources */,
-				64F020BF1C77B382001EAA6F /* Frameworks */,
-				64F020C01C77B382001EAA6F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				64F020C41C77B382001EAA6F /* PBXTargetDependency */,
-			);
-			name = iCanUITests;
-			productName = iCanUITests;
-			productReference = 64F020C21C77B382001EAA6F /* iCanUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +163,6 @@
 						CreatedOnToolsVersion = 7.2.1;
 					};
 					64F020B61C77B382001EAA6F = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 64F0209F1C77B381001EAA6F;
-					};
-					64F020C11C77B382001EAA6F = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 64F0209F1C77B381001EAA6F;
 					};
@@ -222,7 +183,6 @@
 			targets = (
 				64F0209F1C77B381001EAA6F /* iCan */,
 				64F020B61C77B382001EAA6F /* iCanTests */,
-				64F020C11C77B382001EAA6F /* iCanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +199,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		64F020B51C77B382001EAA6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64F020C01C77B382001EAA6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,14 +226,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64F020BE1C77B382001EAA6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64F020C71C77B382001EAA6F /* iCanUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +233,6 @@
 			isa = PBXTargetDependency;
 			target = 64F0209F1C77B381001EAA6F /* iCan */;
 			targetProxy = 64F020B81C77B382001EAA6F /* PBXContainerItemProxy */;
-		};
-		64F020C41C77B382001EAA6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64F0209F1C77B381001EAA6F /* iCan */;
-			targetProxy = 64F020C31C77B382001EAA6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -447,30 +387,6 @@
 			};
 			name = Release;
 		};
-		64F020D21C77B382001EAA6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = iCanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = complexityclass.iCanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = iCan;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		64F020D31C77B382001EAA6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = iCanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = complexityclass.iCanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = iCan;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -497,15 +413,6 @@
 			buildConfigurations = (
 				64F020CF1C77B382001EAA6F /* Debug */,
 				64F020D01C77B382001EAA6F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		64F020D11C77B382001EAA6F /* Build configuration list for PBXNativeTarget "iCanUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64F020D21C77B382001EAA6F /* Debug */,
-				64F020D31C77B382001EAA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
