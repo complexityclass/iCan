@@ -38,8 +38,6 @@
 		64F020B71C77B382001EAA6F /* iCanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F020BB1C77B382001EAA6F /* iCanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCanTests.swift; sourceTree = "<group>"; };
 		64F020BD1C77B382001EAA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64F020C61C77B382001EAA6F /* iCanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCanUITests.swift; sourceTree = "<group>"; };
-		64F020C81C77B382001EAA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 			children = (
 				64F020A21C77B381001EAA6F /* iCan */,
 				64F020BA1C77B382001EAA6F /* iCanTests */,
-				64F020C51C77B382001EAA6F /* iCanUITests */,
 				64F020A11C77B381001EAA6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,15 +97,6 @@
 				64F020BD1C77B382001EAA6F /* Info.plist */,
 			);
 			path = iCanTests;
-			sourceTree = "<group>";
-		};
-		64F020C51C77B382001EAA6F /* iCanUITests */ = {
-			isa = PBXGroup;
-			children = (
-				64F020C61C77B382001EAA6F /* iCanUITests.swift */,
-				64F020C81C77B382001EAA6F /* Info.plist */,
-			);
-			path = iCanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
