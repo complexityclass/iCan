@@ -38,16 +38,6 @@
                ReferencedContainer = "container:iCan.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64F020C11C77B382001EAA6F"
-               BuildableName = "iCanUITests.xctest"
-               BlueprintName = "iCanUITests"
-               ReferencedContainer = "container:iCan.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
