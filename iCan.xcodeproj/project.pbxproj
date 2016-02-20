@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					64F0209F1C77B381001EAA6F = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = UM246WFXVS;
+						DevelopmentTeam = 7JTQQ5AX7V;
 					};
 					64F020B61C77B382001EAA6F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -491,6 +491,7 @@
 				64F020CD1C77B382001EAA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F020CE1C77B382001EAA6F /* Build configuration list for PBXNativeTarget "iCanTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				64F020D01C77B382001EAA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F020D11C77B382001EAA6F /* Build configuration list for PBXNativeTarget "iCanUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +509,7 @@
 				64F020D31C77B382001EAA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
