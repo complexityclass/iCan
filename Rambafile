@@ -1,0 +1,41 @@
+### Headers settings
+company: Complexityclass Inc.
+
+### Xcode project settings
+project_name: iCan
+xcodeproj_path: iCan.xcodeproj
+
+
+### Code generation settings section
+# The main project target name
+project_target: iCan
+
+# The file path for new modules
+project_file_path: iCan/Classes/Modules
+
+# The Xcode group path to new modules
+project_group_path: iCan/Classes/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: iCanTests
+
+# The file path for new tests
+test_file_path: iCanTests/Classes/Modules
+
+# The Xcode group path to new tests
+test_group_path: iCanTests/Classes/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+
+### Template
+
+catalogs:
+- 'https://github.com/rambler-ios/generamba-catalog'
+
+templates:
+#- {name: local_template_name, local: 'absolute/file/path'}
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+- {name: swifty_viper}
