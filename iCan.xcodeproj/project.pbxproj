@@ -37,6 +37,13 @@
 		64EF4B851C79DFAC00208330 /* TaskListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122CF3F6FAC68C45D9A8FF5 /* TaskListInteractorTests.swift */; };
 		64EF4B861C79DFB100208330 /* TaskListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8479BF8F3433408C65CEF /* TaskListPresenterTests.swift */; };
 		64EF4B871C79DFB800208330 /* TaskListRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C86C9CCA96E89ED62A5758 /* TaskListRouterTests.swift */; };
+		64EF4BAB1C7A2B1A00208330 /* task.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EF4BAA1C7A2B1A00208330 /* task.json */; };
+		64EF4BAC1C7A2B1A00208330 /* task.json in Resources */ = {isa = PBXBuildFile; fileRef = 64EF4BAA1C7A2B1A00208330 /* task.json */; };
+		64EF4BAF1C7A2F7200208330 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EF4BAE1C7A2F7200208330 /* Task.swift */; };
+		64EF4BB01C7A2F7200208330 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EF4BAE1C7A2F7200208330 /* Task.swift */; };
+		64EF4BB21C7A305900208330 /* JsonSerializableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EF4BB11C7A305900208330 /* JsonSerializableType.swift */; };
+		64EF4BB31C7A305900208330 /* JsonSerializableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EF4BB11C7A305900208330 /* JsonSerializableType.swift */; };
+		64EF4BB61C7A4B1E00208330 /* MappersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EF4BB51C7A4B1E00208330 /* MappersTests.swift */; };
 		64F020A41C77B381001EAA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F020A31C77B381001EAA6F /* AppDelegate.swift */; };
 		64F020A61C77B381001EAA6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F020A51C77B381001EAA6F /* ViewController.swift */; };
 		64F020A91C77B381001EAA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F020A71C77B381001EAA6F /* Main.storyboard */; };
@@ -64,6 +71,10 @@
 		20D2A756B57952A7F41F2D8B /* Pods-iCanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCanTests/Pods-iCanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2643D68ABDD79A54531D8E51 /* TaskListInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskListInitializer.swift; path = Classes/Modules/TaskList/Configurator/TaskListInitializer.swift; sourceTree = "<group>"; };
 		3B045A78E60C1B6AAC01072F /* TaskListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskListConfigurator.swift; path = Classes/Modules/TaskList/Configurator/TaskListConfigurator.swift; sourceTree = "<group>"; };
+		64EF4BAA1C7A2B1A00208330 /* task.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = task.json; sourceTree = "<group>"; };
+		64EF4BAE1C7A2F7200208330 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		64EF4BB11C7A305900208330 /* JsonSerializableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonSerializableType.swift; sourceTree = "<group>"; };
+		64EF4BB51C7A4B1E00208330 /* MappersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappersTests.swift; sourceTree = "<group>"; };
 		64F020A01C77B381001EAA6F /* iCan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F020A31C77B381001EAA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F020A51C77B381001EAA6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +207,31 @@
 			name = Router;
 			sourceTree = "<group>";
 		};
+		64EF4BA91C7A2AF800208330 /* Stubbed Responses */ = {
+			isa = PBXGroup;
+			children = (
+				64EF4BAA1C7A2B1A00208330 /* task.json */,
+			);
+			name = "Stubbed Responses";
+			sourceTree = "<group>";
+		};
+		64EF4BAD1C7A2F0800208330 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64EF4BAE1C7A2F7200208330 /* Task.swift */,
+				64EF4BB11C7A305900208330 /* JsonSerializableType.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		64EF4BB41C7A4AFE00208330 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				64EF4BB51C7A4B1E00208330 /* MappersTests.swift */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
 		64F020971C77B381001EAA6F = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +263,7 @@
 				64F020B21C77B381001EAA6F /* Info.plist */,
 				64F020AA1C77B381001EAA6F /* iCan.xcdatamodeld */,
 				7D049B41380A7E8385981175 /* Classes */,
+				64EF4BA91C7A2AF800208330 /* Stubbed Responses */,
 			);
 			path = iCan;
 			sourceTree = "<group>";
@@ -253,6 +290,7 @@
 		69EAB23E5E677F31AFD5B87C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				64EF4BB41C7A4AFE00208330 /* Mappers */,
 				E2626F9E82D23FAEF4C2BBD7 /* Modules */,
 			);
 			name = Classes;
@@ -262,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				33A58E5B23DDBED883D91609 /* Modules */,
+				64EF4BAD1C7A2F0800208330 /* Models */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -409,6 +448,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EF4BAB1C7A2B1A00208330 /* task.json in Resources */,
 				64F020B11C77B381001EAA6F /* LaunchScreen.storyboard in Resources */,
 				64F020AE1C77B381001EAA6F /* Assets.xcassets in Resources */,
 				64F020A91C77B381001EAA6F /* Main.storyboard in Resources */,
@@ -419,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EF4BAC1C7A2B1A00208330 /* task.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +570,9 @@
 				64EF4B801C79DF8A00208330 /* TaskListInitializer.swift in Sources */,
 				64EF4B6A1C79DF4C00208330 /* TaskListViewInput.swift in Sources */,
 				64EF4B721C79DF6200208330 /* TaskListPresenter.swift in Sources */,
+				64EF4BB21C7A305900208330 /* JsonSerializableType.swift in Sources */,
 				64EF4B7C1C79DF7E00208330 /* TaskListRouter.swift in Sources */,
+				64EF4BAF1C7A2F7200208330 /* Task.swift in Sources */,
 				64F020A61C77B381001EAA6F /* ViewController.swift in Sources */,
 				64EF4B741C79DF6A00208330 /* TaskListInteractorInput.swift in Sources */,
 				64F020A41C77B381001EAA6F /* AppDelegate.swift in Sources */,
@@ -544,13 +587,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EF4BB31C7A305900208330 /* JsonSerializableType.swift in Sources */,
 				64EF4B751C79DF6A00208330 /* TaskListInteractorInput.swift in Sources */,
 				64EF4B861C79DFB100208330 /* TaskListPresenterTests.swift in Sources */,
+				64EF4BB61C7A4B1E00208330 /* MappersTests.swift in Sources */,
 				64EF4B6B1C79DF4D00208330 /* TaskListViewInput.swift in Sources */,
 				64EF4B711C79DF5E00208330 /* TaskListModuleInput.swift in Sources */,
 				64EF4B811C79DF8A00208330 /* TaskListInitializer.swift in Sources */,
 				64EF4B7F1C79DF8500208330 /* TaskListConfigurator.swift in Sources */,
 				64EF4B851C79DFAC00208330 /* TaskListInteractorTests.swift in Sources */,
+				64EF4BB01C7A2F7200208330 /* Task.swift in Sources */,
 				64EF4B7D1C79DF7F00208330 /* TaskListRouter.swift in Sources */,
 				64EF4B791C79DF7400208330 /* TaskListInteractor.swift in Sources */,
 				64EF4B6F1C79DF5800208330 /* TaskListViewController.swift in Sources */,

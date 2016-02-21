@@ -13,6 +13,7 @@ pod 'Alamofire', '~> 3.0'
 
 #Mapping
 pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+pod 'ISO8601DateFormatter', '~> 0.7'
 
 #Autolayout
 pod 'PureLayout', '~> 3.0'

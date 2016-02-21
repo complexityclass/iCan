@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-iCan/Alamofire.framework"
+  install_framework "Pods-iCan/ISO8601DateFormatter.framework"
   install_framework "Pods-iCan/PureLayout.framework"
   install_framework "Pods-iCan/ReactiveCocoa.framework"
   install_framework "Pods-iCan/Result.framework"
@@ -92,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-iCan/Alamofire.framework"
+  install_framework "Pods-iCan/ISO8601DateFormatter.framework"
   install_framework "Pods-iCan/PureLayout.framework"
   install_framework "Pods-iCan/ReactiveCocoa.framework"
   install_framework "Pods-iCan/Result.framework"
