@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import ReactiveCocoa
+import Alamofire
+import PureLayout
+import SwiftyJSON
 
 class ViewController: UIViewController {
 

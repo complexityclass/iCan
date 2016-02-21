@@ -1,0 +1,6 @@
+framework module Pods_iCan {
+  umbrella header "Pods-iCan-umbrella.h"
+
+  export *
+  module * { export * }
+}
